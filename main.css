@@ -1,0 +1,143 @@
+*{
+  /*border: solid 1px;*/
+  font-family: "Noto Sans TC", sans-serif;/*字體*/
+  font-weight:800px;
+  position: relative;/*位移*/
+  
+  /*米字鍵=全區域通用*/
+}
+html,body{
+  wight: 100%; height: 100%;/*範圍擴大的百分比*/
+  padding: 0px; margin: 0px;/*內縮、內擴都取消*/
+  
+  /*全螢幕
+  html,body的全區域*/
+}
+body{
+  background-color: #FF90B3;/*背景深灰色*/
+  border-top: solid 20px #FFC2E2;
+  border-bottom: solid 20px #FFC2E2;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*body的全區域*/
+}
+.name_card_size{
+  transform:scale(1.5);
+  position:relative;
+  top:100px;
+  }
+.name_card{
+  width: 250px; height: 400px;/*正方形的長寬*/
+  padding: 20px;/*標題往下20個像素寬*/
+  margin-left: auto;/*往右邊,自動*/
+  margin-right: auto;/*往左邊,自動*/
+  margin-top: 35px;/*往下100個像素*/
+  background-color: #eee;/*框內的淺灰色*/
+  
+  letter-spacing: 1px;/*框內 字的行距*/
+  color: #666;/*最上層疊一層淺淺的灰,修飾整體*/
+    
+  overflow: hidden;/*隱藏其他範圍*/
+  border: solid 1px rgba(0,0,0,0.15);/*名片邊框*/
+  border-radius: 6px;/*名片四個角的弧度*/
+  
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  /*陰影(x,y,z,外擴) 
+  不透明度(0,0,0,0.2)*/
+  
+}
+a{
+  left:5px;
+  bottom:20px;
+}
+.name_card h2{
+  font-size: 10px;/*字體大小*/
+  font-weight: 1500px;/*字體粗細*/
+  letter-spacing: 5px;
+  writing-mode: vertical-lr;
+  top: 10px
+}
+.name_card p{
+  font-size: 12px;
+  top:-95px;
+  left:40px;
+}
+
+.name_card spen5{
+  font-size: 10px;
+  left:20px;
+  top:-50px;
+}
+.name_card spen4{
+  widtn:500px;
+  top:-10px;
+  left:20px
+}
+.name_card spen3{
+  widtn:500px;
+  top:10px;
+  margin:0px 50px 0px 0px;
+  left:-25px
+}
+.name_card h2 spen{
+  font-size: 10px;/*字體大小*/
+  font-weight: 500;/*字體粗細*/
+}
+.name_card img{
+  width:70%;
+  position: ralative;
+  bottom:100px;
+  left: 40px;
+  border-radius:100%;
+}
+
+#name_card{
+  position: relative;
+  left:10px;
+}
+.name_card h5{
+  color: #f24;/*紅色*/
+  bottom: 90px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.name_card i{
+  font-size:20px;
+  top:-70px;
+  right:-90px;
+
+}
+.circle{
+  width: 100px; height: 100px;/*正方形的長寬*/
+  border-radius: 100%;/*變成圓圈的弧度*/
+  position: absolute;/*位移*/
+  left:-80px
+}
+.circle1{
+  right: 100px;
+  top: 220px;
+  /*位移*/
+  background-color: #f24/*圓圈填滿:紅色*/
+}
+
+.circle2{
+  width: 60px; height: 60px;/*正方形的長寬*/
+  right: -30px;
+  top: -30px;
+  /*位移*/
+  border: solid 3px #f24;/*邊線粗細、紅色*/
+}
+.page_title{
+  text-align: center;/*文字置中*/
+  color: #555;/*黑灰色*/
+  font-weight: 550;/*字體粗細*/
+}
+.mark{
+  font-size: 100px;/*字體大小*/
+  position: absolute;/*位移*/
+  bottom: 300px;
+  font-weight: 500;/*字體粗細*/
+  color: rgba(0,0,0,0.1);/*不透明度*/
+  left:50px;
+}
